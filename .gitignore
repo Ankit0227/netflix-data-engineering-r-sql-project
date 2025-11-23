@@ -1,0 +1,55 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rproj
+.Rapp.history
+
+# RStudio
+.Rproj.user/
+
+# Python/R intermediate files
+*.Rproj
+*.Rhistory
+*.RData
+*.Rds
+*.Rda
+
+# CSV or data files
+data/*.xls
+data/*.sav
+data/*.dta
+data/*.db
+data/.DS_Store
+
+# Ignore large CSV backups (keep only original & cleaned CSV)
+data/*backup*.csv
+
+# Logs
+logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node / other tools
+node_modules/
+
+# Output plots (optional — only ignore temporary plots)
+plots/temp/
+plots/*_temp.png
+
+# Compiled binaries
+*.exe
+*.dll
+
+# PDF builds from RMarkdown
+*.utf8.md
+*.knit.md
+
+# Virtual environments
+venv/
+.env/
